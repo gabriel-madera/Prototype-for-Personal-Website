@@ -1,0 +1,148 @@
+<!--
+     GABRIEL MADERA
+     CSCI3308
+     OCTOBER 10TH, 2019
+                        -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Add New Article</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <h2> <b>Add New Article </b> </h2>
+    <form>
+        <div class="form-group">
+          <label for="titleInput"> <b>Article Title</b></label>
+          <input class="form-control" id="titleInput" placeholder = "Title">
+        </div>
+        <div class="form-group">
+          <label for="authorInput"> <b>Author Name</b></label>
+          <input class="form-control" id="authorInput" placeholder = "Name">
+        </div>
+        <!-- <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button> -->
+    </form>
+
+    <form>
+      <div class="row">
+        <div class="col">
+          <div class="form-group">
+          <label for="exampleFormControlFile1">   <b>Upload Files:</b></label>
+          <input type="file" class="form-control-file" id="exampleFormControlFile1">
+          </div>
+        </div>
+        <div class="col">
+          <label for="sel1"><b>Pages</b></label>
+          <select class="form-control" id="sel1">
+            <option>Academics</option>
+            <option>Athletics</option>
+            <option>Politics</option>
+            <option>Other</option>
+          </select>
+        </div>
+      </div>
+    </form>
+
+    <br>
+
+    <form>
+              <!-- ARTICLE TEXTBOX -->
+              <!-- <div class="form-group">
+                <label for="articleText"> <b>Article Text</b></label>
+                <input class="form-control form-control-lg" type="text">
+              </div> -->
+              <div class="form-group">
+                <label for="largeTextArea"><b>Article Text</b></label>
+                <textarea class="form-control rounded-0" id="largeTextArea" rows="10"></textarea>
+              </div>
+
+              <!-- Smaller Text Area
+              <div class="form-group">
+                <label for="exampleFormControlTextarea2">Small textarea</label>
+                <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3"></textarea>
+              </div> -->
+
+              <div class="row">
+                <div class="col">
+                  <!-- TAGS CHECKBOXES -->
+                      <div>
+                        <label for="Tags"><b> Select Tags</b></label>
+                        <div class="container">
+                            <label class="checkbox-inline">
+                              <input type="checkbox" value="">Python
+                            </label>
+                            &nbsp
+                            <label class="checkbox-inline">
+                              <input type="checkbox" value="">C++
+                            </label>
+                            &nbsp
+                            <label class="checkbox-inline">
+                              <input type="checkbox" value="">Java
+                            </label>
+                            &nbsp
+                            <label class="checkbox-inline">
+                              <input type="checkbox" value="">Scala
+                            </label>
+                            &nbsp
+                            <label class="checkbox-inline">
+                              <input type="checkbox" value="">Perl
+                            </label>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                  <!-- VISIBILITY RADIO BUTTONS -->
+                  <div>
+                    <label for="Tags"><b>Visibility</b></label>
+                    <br>
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                      <label class="btn btn-secondary active">
+                        <input type="radio" name="options" id="public" autocomplete="off" checked>Public
+                      </label>
+                      <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="private" autocomplete="off">Private
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <br>
+
+              <!-- LOGIN TO FINSH SUBMITTING -->
+              <div>
+                <label for="Tags"><b>Login to Finish Submitting</b></label>
+                <div class="form-row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Username">
+                  </div>
+                  <div class="col">
+                    <!-- <label for="inputPassword">Password</label> -->
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                  </div>
+                </div>
+                <!-- <br> -->
+                <div class="form-check mb-2">
+                  <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+                  <label class="form-check-label" for="autoSizingCheck">
+                    Remember me
+                  </label>
+                </div>
+                <button type="button" class="btn btn-primary">Submit</button>
+              </div>
+
+    </form>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

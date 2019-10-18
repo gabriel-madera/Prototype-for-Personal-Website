@@ -1,0 +1,177 @@
+<!--
+     GABRIEL MADERA
+     CSCI3308
+     OCTOBER 10TH, 2019
+                        -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Me</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <h3>
+        Madera, Gabriel
+        <small class="text-muted"> - Software Development Tools and Methods</small>
+      </h3>
+
+      <div class="card bg-light text-dark">
+        <div class="card-body"><p>I like to play Soccer in my free time. I was born an raised here in Colorado. I am a junior at CU Boulder. I'm studying Computer Science because there is nothing else that I could see myself doing.</p></div>
+      </div>
+
+      <!-- <p>I like to play Soccer in my free time. I was born an raised here in Colorado. I am a junior at CU Boulder. I'm studying Computer Science because there is nothing else that I could see myself doing.</p> -->
+
+      <div>
+      <!-- <h2>My professional Profile</h2> -->
+        <a href="https://github.com/gabriel-madera" target="_blank" class="btn btn-outline-dark" role="button" aria-pressed="true">Gabriel's GitHub</a>
+      </div>
+      <img src="IMG_20161118_094628.jpg" alt="Downtown Denver" class = "rounded-circle"  width="475" height="600">
+      <!--  width="475" height="600" -->
+
+      <!-- <a href="https://github.com/gabriel-madera">Check my GitHub here!</a> </p> -->
+      <!-- <img class="rounded-circle" src="IMG_20161118_094628.jpg" alt="Downtown Denver" width="500" height="700"> -->
+      <!-- Give the image a value. This is especially useful when the image cannot be displayed -->
+
+      <h2>My Favorite Projects</h2>
+
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col">Name of the Project</th>
+            <th scope="col">Technologies Used</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>TopNStreaming</td>
+            <td>C++</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Oregon Trail</td>
+            <td>C++</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Movie Tree</td>
+            <td>C++</td
+          </tr>
+        </tbody>
+        </table>
+
+      <!-- <table class="table table-bordered">
+
+        <tr>
+          <th>Name of Project</th>
+          <th>Technologies Used</th>
+        </tr>
+
+        <tr>
+          <td>TopN Streaming<td>
+          <td>C++</td>
+        </tr>
+
+        <tr>
+          <td>Oregon Trail<td>
+          <td>C++</td>
+        </tr>
+
+        <tr>
+          <td>Movie Tree<td>
+          <td>C++</td>
+        </tr>
+      </table> -->
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="container">
+              <!-- <h3>Countries Travelled</h3> -->
+              <button type="button" class="btn btn-outline-dark btn-block" data-toggle="collapse" data-target="#demo">Countries Travelled</button>
+                <div id="demo" class="collapse">
+                  <ul>
+                    <li>United States</li>
+                    <li>Mexico</li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="container">
+              <!-- <h3>My Interests</h3> -->
+              <button type="button" class="btn btn-outline-dark btn-block" data-toggle="collapse" data-target="#demo2">My Interests</button>
+                <div id="demo2" class="collapse">
+                  <ol>
+                    <li>Soccer</li>
+                    <li>Computers</li>
+                    <li>SmartPhones</li>
+                  </ol>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+          <!-- <div class="container">
+            <h3>Countries Travelled</h3> -->
+            <!-- <button type="button" class="btn btn-outline-dark" data-toggle="collapse" data-target="#demo" style="width:50%">Countries Travelled</button>
+              <div id="demo" class="collapse">
+                <ul>
+                  <li>United States</li>
+                  <li>Mexico</li>
+                </ul>
+              </div>
+          </div>
+
+          <div class="container">
+             <h3>My Interests</h3> -->
+            <!-- <button type="button" class="btn btn-outline-dark" data-toggle="collapse" data-target="#demo2" style="width:50%">My Interests</button>
+              <div id="demo2" class="collapse">
+                <ol>
+                  <li>Soccer</li>
+                  <li>Computers</li>
+                  <li>SmartPhones</li>
+                </ol>
+              </div>
+          </div> -->
+
+          <br>
+      <div class="container">
+                <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+          Click Me!
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">That's all folks</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                :)
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
